@@ -75,8 +75,8 @@ def main() -> None:
     """Run the ONS trusted data transformation."""
 
     transformer = ONSTrustedData(
-        input_path="energy-demand-forecasting/data/01_raw/raw_data.parquet",
-        output_path="energy-demand-forecasting/data/02_trusted/trusted_data.parquet",
+        input_path="energy-demand-forecasting/data/I_raw/raw_data.parquet",
+        output_path="energy-demand-forecasting/data/II_trusted/trusted_data.parquet",
     )
 
     df_trusted = transformer.run()

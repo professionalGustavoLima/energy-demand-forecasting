@@ -176,7 +176,7 @@ def main() -> None:
         load_codes=["SECO", "N", "NE", "S"],
         start_date="2020-01-01",
         end_date="2026-06-30",
-        output_path="energy-demand-forecasting/data/01_raw/raw_data.parquet",
+        output_path="energy-demand-forecasting/data/I_raw/raw_data.parquet",
         interval_months=6,
         max_retries=3,
         timeout=60,
